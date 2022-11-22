@@ -349,36 +349,16 @@ input[type="range"]::-ms-fill-upper {
 
 /* media query for responsiveness */
 
-@media screen and (max-width: 480px) {
-	.all {
+@media only screen and (max-width: 600px) {
+	.all-ctn,
+	.page-1,
+	.fixed-head,
+	.big-rec,
+	.footer-ctn,
+	.header,
+	.new-release-ctn
+	 {
 		width: 100%;
+		padding: 0;
+		margin: 0;
 	}
-	.all-ctn {
-		width: 100%;
-	}
-	.sidenav {
-		display: none;
-	}
-	.page-ctn {
-		width: 100%;
-		display: block;
-	}
-	.sct-1 {
-		width: 90%;
-	}
-	.sct-2 {
-		width: 90%;
-	}
-	.rec-div {
-		width: 100%;
-	
-	}
-	.letter-div {
-		width: 50%;
-		gap: 0;
-		justify-content: flex-end;
-	}
-	.image-like img {
-		display: none;
-	}
-}
